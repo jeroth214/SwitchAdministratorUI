@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SwitchAdministratorUI</string>
+    <string name="logo">SwitchChoirLogo</string>
+    <string name="addSwitch">Add A Switch</string>
+    <string name="assignNotesToSwitches">Assign Notes to Switches</string>
+    <string name="uploadSong">Upload A Song</string>
+    <string name="playText">Play</string>
+    <string name="pauseText">Pause</string>
+</resources>
