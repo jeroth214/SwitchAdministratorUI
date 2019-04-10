@@ -10,11 +10,11 @@ public class Switch {
     /**
      * constructs a switch
      *
-     * @param thisName the name of the switch
+     * @param switchName the name of the switch
      * @param thisNote the note of the switch
      */
-    public Switch(String thisName, String thisNote) {
-        name = thisName;
+    public Switch(String switchName, String thisNote) {
+        name = switchName;
         note = thisNote;
     }
 
