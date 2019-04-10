@@ -59,7 +59,11 @@ public class MainActivity extends AppCompatActivity {
         Button restart = this.findViewById(R.id.restartButton);
         restart.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            /**
+             * resets the media player on click
+             * @param view the main activity layout
+             */
+            public void onClick(View view) {
                 mediaPlayer.reset();
             }
         });
@@ -74,6 +78,9 @@ public class MainActivity extends AppCompatActivity {
         Button add = this.findViewById(R.id.addSwitchButton);
         add.setOnClickListener(new View.OnClickListener() {
             @Override
+            /**
+             * switches to add switch screen on click
+             */
             public void onClick(View view) {
                 addSwitchIntent.putExtra("repository",thisRepository);
                 startActivity(addSwitchIntent);
@@ -84,6 +91,9 @@ public class MainActivity extends AppCompatActivity {
         Button edit = this.findViewById(R.id.editSwitchesButton);
         edit.setOnClickListener(new View.OnClickListener() {
             @Override
+            /**
+             * switches to edit switches screen on click
+             */
             public void onClick(View view) {
                 editSwitchIntent.putExtra("repository",thisRepository);
                 startActivity(editSwitchIntent);
