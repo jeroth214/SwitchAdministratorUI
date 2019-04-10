@@ -6,4 +6,22 @@
     <string name="uploadSong">Upload A Song</string>
     <string name="playText">Play</string>
     <string name="pauseText">Pause</string>
+    <string name="switchNameText">Switch Name:</string>
+    <string name="addSwitchText">Add Switch</string>
+    <string name="switchNoteText">Switch Note:</string>
+    <string name="switchNoteHint">Note</string>
+    <string name="switchNameHintText">Name</string>
+    <string name="AutoFillName">Switch Name</string>
+    <string name="editSwitchesText">Edit Switches</string>
+    <string name="songNameTextView">Song:</string>
+    <string name="songNameDisplayText">Song Name</string>
+    <string name="restartButtonText">Restart</string>
+    <string name="switchText">Switch Name - Note</string>
+    <string name="currentNameQuestionText">What is the current name of the switch you would like to edit?</string>
+    <string name="newNameQuestionText">What is the new name of the switch?</string>
+    <string name="newNoteQuestionText">What is the new note of the switch?</string>
+    <string name="currentNameAutofill">Current Name</string>
+    <string name="newNameAutofill">New Name</string>
+    <string name="newNoteAutofill">New Note</string>
+    <string name="saveChangesButtonText">Save Changes</string>
 </resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AssignNotesActivity">
+    tools:context=".EditSwitchesActivity">
 
     <LinearLayout
         android:layout_width="395dp"
@@ -16,47 +16,65 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/switchName"
+            android:id="@+id/currentNameTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/switchNameText"
+            android:text="@string/currentNameQuestionText"
             android:textColor="@color/colorBlack"
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/switchNameEditText"
+            android:id="@+id/currentNameEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
-            android:hint="@string/AutoFillName"
+            android:hint="@string/currentNameAutofill"
             android:inputType="textPersonName"
-            android:text="@string/switchNameHintText"
-            android:autofillHints="" />
+            android:text="@string/currentNameAutofill"
+            android:textColor="@color/colorBlack" tools:targetApi="o"/>
 
         <TextView
-            android:id="@+id/switchNote"
+            android:id="@+id/newNameTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/switchNoteText"
+            android:text="@string/newNameQuestionText"
             android:textColor="@color/colorBlack"
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/switchNoteEditText"
+            android:id="@+id/newNameEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
-            android:hint="@string/switchNoteHint"
+            android:hint="@string/newNameAutofill"
             android:inputType="textPersonName"
-            android:text="@string/switchNoteHint"
-            android:autofillHints="" />
+            android:text="@string/newNameAutofill" tools:targetApi="o"/>
+
+        <TextView
+            android:id="@+id/newNoteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/newNoteQuestionText"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/newNoteEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/newNoteAutofill"
+            android:inputType="textPersonName"
+            android:text="@string/newNoteAutofill" tools:targetApi="o"/>
 
         <Button
-            android:id="@+id/addSwitchButton"
+            android:id="@+id/saveChangesButton"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/addSwitchText" />
-
+            android:text="@string/saveChangesButtonText" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
